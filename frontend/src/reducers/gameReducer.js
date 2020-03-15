@@ -284,7 +284,7 @@ export default (state = initialState, action) => {
             if ( state.tutorialStep != null ) {
                 state.tutorialStep++;
             }
-            return {...state, stones: {...state.stones, selected: ""}};
+            return {...state, stones: {...state.stones, selected: null}};
             
         case "ERROR_FETCH":
             state.error = `An Error occured whilst fetching the game data:\n ${action.payload}`;
