@@ -36,7 +36,7 @@ function randomizeStone(id, index) {
             } while (sides[side] !== null);
             
             if ( max >= 6 ) {
-                sides[side] = parseInt(Math.random()*5.5);
+                sides[side] = parseInt(Math.random()*5.25);
             } else {
                 sides[side] = parseInt(Math.random()*max);
             }
