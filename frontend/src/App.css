@@ -1,0 +1,59 @@
+.mainheader { font-size: 42px; font-variant: small-caps; color: #483d8b; font-family: monospace; border-bottom: #483d8b; border-bottom-style: dashed; }
+
+button { margin-right: 1%; margin-left: 1%; font-size:13px; border-style: outset; border-radius: 10px; color: #f5f5f5; }
+
+button.goBack { border-color: #6a5acd; background-color: #483d8b; }
+button.goBack:hover { background-color: #6a5acd; }
+
+button.confirm { border-color: #008b8b; background-color: #008000; }
+button.confirm:hover { border-color: #008b8b; background-color: #9acd32; }
+button.confirm:disabled { border-color: #6a5acd;  background-color: transparent; }
+
+.jInput { font-size: 30px; font-family: monospace; color: black; margin-bottom: 5px; width: 200px; border-style: ridge; border-width: 8px; border-color: #daa520; background-color: #b8894c; }
+
+.centered { text-align: center; }
+button.cGame { font-size: 20px; font-variant: small-caps; width: 80%; height: 150px; border-color: #8a2be2; border-width: 3px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; background-color: #800080; }
+button.cGame:hover { background-color: #d144d1; }
+button.jGame { font-size: 20px; font-variant: small-caps; width: 80%; height: 150px; border-color: #5f9ea0; border-width: 3px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; background-color: #008b8b; }
+button.jGame:hover { background-color: #7cced1; }
+button.h2p { font-size: 20px; font-variant: small-caps; width: 80%; height: 150px; border-color: #deb887; border-width: 3px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; background-color: #b8860b; }
+button.h2p:hover { background-color: #ffd700; }
+b.symbol { font-size: 80px; font-family: sans-serif; }
+
+.cContainer { display: inline-block; padding: 10px; font-size: 18px;  width: 360px; border-style: outset; border-color: #8a2be2; background-color: #800080; }
+.tooltip { float: right; display: inline-block; text-align: center; color: #f5f5f5; padding: 10px; font-size: 18px; max-width: 720px; min-width: 360px; border-style: outset; border-color: #deb887; background-color: #b8860b; }
+
+label.option { color: #f5f5f5; cursor: pointer; }
+input[type=checkbox]:checked + label.option { color: #55beff; cursor: pointer; }
+input[type=radio]:checked + label.option { color: #55beff; cursor: pointer; }
+input[type=range][orient=vertical] { writing-mode: bt-lr; -webkit-appearance: slider-vertical; }
+input[type=range] { cursor: pointer; }
+input[type=number] { -webkit-appearance: none;-moz-appearance: textfield; text-align: center; font-size: 16px; background-color: #800080; border-color: #87cefa; color: #55beff; width: 23px; }
+input[type=number]:disabled { background-color: #800080; color: #ffc0cb; border-color: #800080; border-style: solid; }
+
+.currentID { float: top; width: 150px; margin-left: auto; margin-right: auto; text-align: center; border-width: 8px; border-style: ridge; border-top: hidden; border-color: #daa520; background-color: #b8894c; color: #000000; }
+
+div.PlayingField { padding-bottom: 180px; width: 99%; margin-left: auto; margin-right: auto; border-style: ridge; border-width: 8px; border-color: #daa520; background-color: #b8894c; }
+.Slot { float: right; border-radius: 3px; display: inline-block; margin: 22px; padding: 62.5px; border-width: 4px;}
+.Slot.noOwner { color: #966424; border-color: #be9967; border-style: inset;  background-color: #966424 }
+.Slot.noOwner:hover { border-color: #ffd700; border-style: solid; }
+.Slot.player1 { color: #add8e6; border-color: #c0c0c0; border-style: outset; background-color: #00a3a3 }
+.Slot.player2 { color: #f08080; border-color: #d2691e; border-style: outset; background-color: #a52a2a }
+.Slot.inHand { float: left; margin: 11px; padding: 31.25px; }
+.Slot.inHand:hover { background-color: #daa520; }
+input[type="radio"]:checked + .Slot.inHand { border-color: #ffd700; }
+input[type="radio"]:disabled + .Slot.inHand { background-color: #808080; }
+div.end { font-size: 30px; color: #f5f5f5; float: top; max-width: 100px; margin-left: auto; margin-right: auto; border-width: 8px; border-style: ridge; border-top: hidden; border-color: #daa520; background-color: #483d8b; }
+
+img.topSide { position: absolute; margin-top: -84.5px; margin-left: -62.5px; }
+img.topSide.inHand { width: 62.5px; margin-top: -42.25px; margin-left: -31.25px; }
+img.rightSide { position: absolute; margin-top: -11.5px; margin-left: 10.5px; transform: rotate(90deg); }
+img.rightSide.inHand { width: 62.5px; margin-top: -5.25px; margin-left: 5.25px; }
+img.bottomSide { position: absolute; margin-top: 62.5px; margin-left: -62.5px; -webkit-transform: scaleX(-1); transform: rotate(180deg) scaleX(-1); }
+img.bottomSide.inHand { width: 62.5px; margin-top: 31.25px; margin-left: -31.25px; }
+img.leftSide { position: absolute; margin-top: -11.5px; margin-left: -135.5px; -webkit-transform: scaleX(-1); transform: rotate(-90deg) scaleX(-1); }
+img.leftSide.inHand { width: 62.5px;  margin-top: -5.25px; margin-left: -67.25px; }
+
+.TutorialHeader { margin-left: 20px; margin-right: 20px; margin-bottom: -48px; color: #90ee90; }
+button.Tutorial { font-size: 32px; width: 200px; margin-top: 10px; border-color: #006400; background-color: #008000; }
+button.Tutorial:hover { background-color: #00b800; }
