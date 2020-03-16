@@ -125,6 +125,14 @@ export default (state = initialState, action) => {
                     placed: 0,
                     placedBy: [0,0]
                 },
+                options: {
+                    onCapture: "",
+                    levelField: "",
+                    onStart: "keep",
+                    height: 3,
+                    width: 3,
+                    handSize: 5
+                },
                 turn: 0,
                 winner: "",
                 tutorialStep: 1
